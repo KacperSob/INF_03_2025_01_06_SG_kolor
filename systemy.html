@@ -12,7 +12,7 @@
         <h1>Pozycyjne systemy liczbowe</h1>
     </header>
     <main>
-        <div>
+        <div id="lewy">
             <table>
                 <tr>
                     <th>HEX</th>
@@ -51,15 +51,39 @@
                 </tr>
             </table>
         </div>
-        <div>
+        <div id="srodkowy">
             <input type="text" placeholder="Wpisz liczbę dziesiętną">
             <button>Przelcz na binarny</button>
             <p>Brak obliczeń</p>
         </div>
-        <div>
+        <div id="prawy">
             <h2>Słowniczek</h2>
+            <dl>
+                <dt>
+                    Binarny
+                </dt>
+                <dd>
+                    pozycyjny system liczbowy, w którym podstawą jest liczba 2, a do zapisu liczb potrzebne są tylko dwie cyfry: 0 i 1. 
+                </dd>
+                <dt>
+                    Decymalny
+                </dt>
+                <dd>
+                    pozycyjny system liczbowy, w którym podstawą jest liczba 10; do zapisu liczb stosuje się 10 cyfr: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+                </dd>
+                <dt>
+                    <a href="https://szesnastkowy_system_liczbowy.pl">Heksadecymalny</a>
+                </dt>
+                <dd>
+                    pozycyjny system liczbowy, w którym podstawą jest liczba 16. Do zapisu liczb w tym systemie potrzebne jest szesnaście znaków. 
+                </dd>
+            </dl>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        Stronę opracował: <i>Kacper Sobania</i>
+    </footer>
+
+    <script src="skrypt.js"></script>
 </body>
 </html>

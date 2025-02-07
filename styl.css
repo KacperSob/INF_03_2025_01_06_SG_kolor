@@ -4,3 +4,58 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+#lewy, #srodkowy {
+    width: 30%;
+    height: 350px;
+}
+
+#lewy {
+    background-color: #A26475;
+}
+
+#srodkowy {
+    background-color: #824555;
+}
+
+#prawy {
+    background-color: #A26470;
+    width: 40%;
+    height: 350px;
+    overflow: auto;
+}
+
+img{
+    float: left;
+    width: 50px;
+}
+
+table, p, dl {
+    padding: 20px;
+}
+dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+td, th {
+    border: 3px solid #824555;
+    padding: 5px;
+}
